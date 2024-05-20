@@ -79,32 +79,36 @@ Nest is [MIT licensed](LICENSE).
 # Response Type
 
 - GET
-  {
-  "book": [
-  {
-  "title": "engli",
-  "id": "a634a94a-21f9-4116-b45e-fe3589eff777",
-  "author": "oluwatomisin",
-  "year": 3043
-  }
-  ]
-  }
+
+      {
+          "book": [
+            {
+              "title": "engli",
+              "id": "a634a94a-21f9-4116-b45e-fe3589eff777",
+              "author": "oluwatomisin",
+              "year": 3043
+            }
+          ]
+      }
+
 - Post
 - Request Type
-  {
-  "title":"engli",
-  "author":"oluwatomisin",
-  "year":3043
-  }
+
+      {
+      "title":"engli",
+      "author":"oluwatomisin",
+      "year":3043
+      }
+
 - Response Type
 
       {
 
-  "title": "engli",
-  "id": "0d717732-2c07-427a-92dc-05848404326f",
-  "author": "oluwatomisin",
-  "year": 3043
-  }
+        "title": "engli",
+        "id": "0d717732-2c07-427a-92dc-05848404326f",
+        "author": "oluwatomisin",
+        "year": 3043
+      }
 
 - Get
 - url= http://localhost:3000/books/{id}
@@ -116,17 +120,20 @@ Nest is [MIT licensed](LICENSE).
 - param = id
 
 - Request Type
-  {
-  "title":"engli",
-  "author":"oluwatomisin",
-  "year":3043
-  }
+
+      {
+        "title":"engli",
+        "author":"oluwatomisin",
+        "year":3043
+      }
+
 - Response Type
-  {
-  "title":"english",
-  "author":"oluwatomisin",
-  "year":3043
-  }
+
+      {
+          "title":"english",
+          "author":"oluwatomisin",
+          "year":3043
+      }
 
 - delete
 - url= http://localhost:3000/books/{id}
